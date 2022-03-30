@@ -1,0 +1,66 @@
+.CardConainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.Card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 4px lightblue;
+  background-color: aliceblue;
+  margin: 20px 0px;
+  text-align: center;
+}
+.Card_title {
+  color: rgb(116, 85, 85);
+  font-weight: bold;
+  font-size: 25px;
+  margin: 10px 2px;
+}
+.Card_Email {
+  color: rgb(146, 109, 194);
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 2px;
+}
+.Card_Mobile {
+  color: rgb(83, 42, 48);
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 2px;
+}
+.addContainer {
+  background-color: lightskyblue;
+  padding: 20px;
+  width: fit-content;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 1px 2px orange;
+}
+
+.addContainer label {
+  font-size: 20px;
+  display: block;
+  margin-left: 10px;
+}
+.addContainer input {
+  width: 300px;
+  height: 40px;
+  border-radius: 29px;
+  border: 0px;
+  padding-left: 10px;
+}
+.addContainer div {
+  padding: 10px 2px;
+}
+.addContainer div button {
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 16px;
+}
